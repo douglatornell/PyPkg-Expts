@@ -1,0 +1,15 @@
+# conda environment description file for readthedocs build environment
+
+name: pypkg-expts-rtd
+
+channels:
+  - defaults
+
+dependencies:
+  - python=3.8
+
+  # RTD packages
+  - mock
+  - pillow
+  - sphinx
+  - sphinx_rtd_theme
